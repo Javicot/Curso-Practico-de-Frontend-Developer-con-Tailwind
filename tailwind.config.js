@@ -1,8 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./*.html", "./componentes"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        veryLightPink: "#c7c7c7",
+        textInput: "#f7f7f7",
+        white: "#ffffff",
+        black: "#000000",
+        hospitalGreen: "#acd9b2",
+      },
+    },
   },
   plugins: [],
-}
+};
