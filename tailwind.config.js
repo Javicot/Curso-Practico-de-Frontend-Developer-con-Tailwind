@@ -11,6 +11,10 @@ module.exports = {
         hospitalGreen: "#acd9b2",
         hospitalGreenL: "#68c374",
       },
+      screens: {
+        xs: "475px",
+        xxs: { max: "639px" },
+      },
     },
   },
   plugins: [],
