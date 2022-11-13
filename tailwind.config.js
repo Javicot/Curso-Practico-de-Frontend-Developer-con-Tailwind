@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html", "./componentes"],
+  content: ["./*.html", "./componentes/**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
@@ -9,6 +9,7 @@ module.exports = {
         white: "#ffffff",
         black: "#000000",
         hospitalGreen: "#acd9b2",
+        hospitalGreenL: "#68c374",
       },
     },
   },
