@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .enlaces {
+    @apply hover:text-hospitalGreenL transition duration-300 focus:border-b-2  focus:text-hospitalGreenL;
+  }
+}
