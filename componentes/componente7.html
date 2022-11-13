@@ -6,14 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="../CSS/tailwindMain.css">
 </head>
 
 <body>
-  <div>
-    <ul>
-      <li><a href="#">My orders</a></li>
-      <li><a href="#">My account</a></li>
-      <li><a href="">Sign Out</a></li>
+  <div class="w-32 h-auto border-veryLightPink border-2 p-2 rounded-b-lg">
+    <ul class="mr-2">
+      <li class="text-end font-semibold py-2"><a href="#">My orders</a></li>
+      <li class="text-end font-semibold py-2"><a href="#">My account</a></li>
+      <li class="text-end pt-4 pb-2 border-t-2 text-hospitalGreen font-extrabold ">
+        <a class="hover:text-hospitalGreenL transition duration-500" href="">Sign out</a>
+      </li>
     </ul>
   </div>
 </body>
